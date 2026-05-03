@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Family Budget Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Finance Tracker</h1>
+        <p>Last few months budget summary</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="cards">
+        <article class="card balance">
+          <h2>Total Income</h2>
+          <p id="totalIncome"></p>
+        </article>
+        <article class="card expense">
+          <h2>Total Expenses</h2>
+          <p id="totalExpense"></p>
+        </article>
+        <article class="card invest">
+          <h2>Investments / Liabilities</h2>
+          <p id="totalInvestment"></p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h3>Monthly Details</h3>
+        <div id="months"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
